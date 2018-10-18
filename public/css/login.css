@@ -1,0 +1,15 @@
+.login{
+    text-align: center;
+}
+.login .panel-heading{
+    font-size:2em;
+}
+.login .login-checkbox{
+   text-align: center;
+}
+.login label.password{
+    text-align: center;
+}
+#g-recaptcha>div{
+    width:100% !important;
+}

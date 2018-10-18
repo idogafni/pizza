@@ -1,0 +1,8 @@
+.graf-actions{
+    display:flex;
+    justify-content: flex-start;
+}
+
+.graf-actions>button{
+    margin-right:1rem;
+}

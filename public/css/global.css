@@ -1,0 +1,39 @@
+.btn { cursor: pointer; }
+
+.hide { display:none; }
+
+.err {color:red;}
+
+.bg-err { background-color: #fddede; }
+
+.note {color:#f3f0aa;}
+
+.note-bg { background:#fffeb0; }
+
+.bg-ok { background-color: #defde6; }
+
+.collapse.gray {
+  background: #eceaea;
+  padding:10px;
+}
+
+.navbar-brand small {
+  color: #a9a9a9;
+}
+
+#mainLoader {
+  background: #e0e0e0;
+  opacity: 0.8;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 9000;
+  display:none;
+}
+#mainLoader .loader-img {
+  width: 300px;
+  margin-left: 50%;
+  position: relative;
+  left: -150px;
+  top: 200px;
+}

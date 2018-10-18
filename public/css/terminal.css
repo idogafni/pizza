@@ -1,0 +1,25 @@
+
+#pspform table tr td {
+    border:none;
+}
+
+#truevoWidgetIframe ,  #peachpaymentsWidgetIframe{
+    width: 450px;
+    height: 500px;
+    margin: auto;
+    overflow: scroll;
+    border: 0;
+}
+
+#solidPaymentsWidgetIframe{
+    width:100%;
+    height:85vh;
+    margin: auto;
+    overflow: scroll;
+    border: 0;
+}
+
+form h4{
+    padding:10px;
+    padding-bottom: 0px;
+}

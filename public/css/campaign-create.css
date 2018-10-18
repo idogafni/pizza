@@ -1,0 +1,248 @@
+/* campaign nav
+----------------------------------------------------*/
+#nav-create-campaign {
+    border:0;
+    background: #fff;
+}
+
+.affix {
+    top: 0;
+    width: 80%;
+    z-index: 9999 !important;
+    position: fixed;
+    margin: 0 1.5rem 0 0;
+}
+.affix + .container-fluid {
+    padding-top: 70px;
+}
+/* create campaign form container
+----------------------------------------------------*/
+.create-campaign-form-container hr {
+    border-top: 1px solid #e4e4e4;   
+}
+
+.create-campaign-form-container label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.create-campaign-form-container h3 {
+    font-size: 28px;    
+}
+
+
+/* content - category selection - switchers version (disabled)
+----------------------------------------------------*/
+.hide{
+    display: none ;
+}
+.show{
+    display:block;
+}
+.card-body,
+h4.card-title {
+    padding: 10px;
+}
+.card {
+    margin-top: 20px;
+}
+
+.topics-controls {
+    margin: auto;    
+}
+
+.topics-controls .btn {
+    border: 1px solid #ccc;
+    min-width: 150px;
+}
+
+.topics-controls .btn:focus {
+    outline: none;
+}
+
+.topics-controls .btn.active {
+    color: #000;
+    background-color: #d4edda;    
+}
+.topics-controls .btn.active.clearall {
+    color: #000;
+    background-color: #ccc;
+}
+
+.topicts-cards .list-group-item {
+    cursor: pointer;
+}
+
+.topicts-cards .card-img-top {
+    max-width: 369px;    
+}
+
+.bootstrap-switch {
+    float: right;
+}
+
+.category-check-parent-holder {
+	padding-right: 30px;
+}
+
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-primary {
+    color: #000;
+    background: #c3e6cb;
+}
+
+/* content - category selection - cards (active)
+----------------------------------------------------*/
+
+
+.card-category {
+    margin:10px 0;
+}
+.card-category img.card-img-top{
+    max-width:100%;
+}
+.card-category .card-body {
+    float:right;
+}
+
+.banner-img {
+    /*width: 150px;*/
+    /*height: 150px;    */
+}
+
+.cat-bnrs-holder.well {
+    background-color: #ececec;
+    border: 1px solid #ccc;
+    padding-top:1rem;
+} 
+
+.cat-bnrs-holder .card-deck .card {
+   /*margin-left: 15px;     */
+   cursor: pointer;
+   text-align: center;
+    min-height: 309px;
+}
+
+.cat-bnrs-holder  .card.floating-shadow {
+    -webkit-box-shadow: 3px 4px 16px 1px rgb(208, 208, 208);
+    -moz-box-shadow: 3px 4px 16px 1px rgb(208, 208, 208);
+    box-shadow: 3px 4px 16px 1px rgb(208, 208, 208);
+}
+
+.cat-bnrs-holder .card.floating-shadow:hover {        
+    -webkit-box-shadow: 3px 4px 12px 6px rgb(208, 208, 208);
+    -moz-box-shadow: 3px 4px 12px 6px rgb(208, 208, 208);
+    box-shadow: 3px 4px 12px 6px rgb(208, 208, 208);
+}
+
+.cat-bnrs-holder .card.border-success {
+    border: 2px solid #88d875; 
+}
+
+.selected-category-banners {
+    margin: auto;
+}
+
+
+/* targeting - placements selection 
+----------------------------------------------------*/
+
+
+.placement-holder {
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+    min-height: 400px;    
+}
+
+.placement-holder-1 { background-color: #faf2cc; }
+.placement-holder-2 { background-color: #d9edf7; }
+.placement-holder-3 { background-color: #d0e9c6; }
+
+
+.placements-preview-thumbs .list-inline {
+    margin: 20px auto;
+}
+
+.placements-preview-thumbs .placement-preview-thumb {
+    border: 3px solid #fff;
+    cursor: pointer;
+}
+
+.placements-preview-thumbs .placement-preview-thumb.active {
+    border: 3px solid #93d682;
+}
+
+.placement-preview-thumb {
+    max-width: 100px;
+}
+
+.placement-item {
+    margin: auto;
+}
+
+.placement-title {
+    text-align: center;
+}
+
+.placement-item img.placement-selected{
+    max-width:100%;
+}
+.carousel.slide{
+    margin: 0 auto;
+    margin: 0 auto;
+}
+a[class^="carousel-control"]>span::before{
+    color:#989db4;
+}
+.carousel-indicators li{
+    background-color: #989db4;
+}
+
+/* preview
+----------------------------------------------------*/
+
+.well.campaign-preview-holder {
+    margin: auto;
+    background: #ececec;
+}
+
+img#campaignPreviewBanner {
+    /*width: 200px;*/
+    /*height: 200px;   */
+    /*cursor: pointer; */
+    max-width:100%;
+}
+
+.card-campaign-preview {
+    /*width: 600px;*/
+    /*height: 200px;*/
+    /*margin: auto;*/
+    -webkit-box-shadow: 3px 4px 12px 6px rgb(208, 208, 208);
+    -moz-box-shadow: 3px 4px 12px 6px rgb(208, 208, 208);
+    box-shadow: 3px 4px 12px 6px rgb(208, 208, 208);    
+}
+
+
+.save-campaign-btn.submit-bottom {
+    margin: auto;
+}
+
+.container.container-notes {
+    margin-top: 40px;
+    max-width: 800px;
+}
+
+@media (min-width:320px)  {
+    form#createCampaignForm .form-control.round{
+        width:90%;
+        margin: 0 auto ;
+    }
+}
+
+@media (min-width:481px)  {
+    form#createCampaignForm .form-control.round{
+        width:100%;
+        margin: 0 auto ;
+    }
+}
