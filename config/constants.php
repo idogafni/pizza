@@ -3,10 +3,10 @@
 return [
 
     'pizza_types' => [
-        'Margarita' => 1,
-        'Pomodoro'  => 2,
-        'Peperoni'  => 3,
-        'White'     => 4,
+        1 => 'Margarita',
+        2 => 'Pomodoro',
+        3 => 'Peperoni',
+        4 => 'White',
     ],
 
     'pizza_time' => [
