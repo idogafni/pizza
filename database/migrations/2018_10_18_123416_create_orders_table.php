@@ -18,7 +18,7 @@ class CreateOrdersTable extends Migration
             $table->string('address', 100);
             $table->integer('user_id')->unsigned();
             $table->integer('pizza_id')->unsigned();
-            $table->string('status', 20);
+            $table->string('status', 20)->default('process');
             $table->timestamps();
 
             // Foreign keys

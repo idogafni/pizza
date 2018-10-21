@@ -12,8 +12,9 @@
 */
 
 Route::group(['middleware' => ['auth']], function () {
-    Route::get('/home'         , 'HomeController@index')->name('home');
-    Route::post('order/create' , 'OrderController@create');
+    Route::get('/home'          , 'HomeController@index')->name('home');
+    Route::post('order/create'  , 'OrderController@create');
+    Route::resource('orders'    , 'OrderController');
 });
 
 Auth::routes(); // required for auth logic
