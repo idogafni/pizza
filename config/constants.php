@@ -10,10 +10,10 @@ return [
     ],
 
     'pizza_time' => [
-        'Margarita' => 7,
-        'Pomodoro'  => 7,
-        'Peperoni'  => 8,
-        'White'     => 12,
+        1 => 7,
+        2 => 7,
+        3 => 8,
+        4 => 12,
     ],
 
     'delivery_time' => [

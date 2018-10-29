@@ -38,7 +38,7 @@ class OrderController extends Controller
         try {
 
             $order->save();
-            $bake_time = config('constants.pizza_types')[$data->input('pizza_type')];
+            $bake_time = config('constants.pizza_time')[$data->input('pizza_type')];
             ProcessOrders::dispatch($order)->onQueue('orders')->delay(now()->addSecond($bake_time + 6));
         } catch (\Exception $e) {
             var_dump($e->getMessage());

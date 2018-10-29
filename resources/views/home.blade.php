@@ -16,7 +16,7 @@
                                             $pizza_types = config('constants.pizza_types');
                                         ?>
                                         <select id="pizza_type" name="pizza_type" class="form-control">
-                                            <?php foreach( $pizza_types AS $name => $id ) { ?>
+                                            <?php foreach( $pizza_types AS $id => $name ) { ?>
                                                 <option value="{{ $id }}">{{ $name }}</option>
                                             <?php } ?>
                                         </select>
