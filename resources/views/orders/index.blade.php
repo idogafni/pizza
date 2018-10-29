@@ -3,7 +3,7 @@
 @section('content')
 
     <div class="row">
-        <div class="col-6">
+        <div class="col-12">
             <p class="content-sub-header">Orders</p>
             <?php $num = 1; ?>
             @foreach($orders as $order)
